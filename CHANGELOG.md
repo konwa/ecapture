@@ -1,5 +1,64 @@
 <hr>
 
+# v0.6.1 (2023-07-16)
+## What's Changed
+* fix #378 , error: use of undeclared identifier 'KBUILD_MODNAME'  by @cfc4n in https://github.com/gojue/ecapture/pull/379
+* feat:add openssl 1.1.1u and 3.0.9   by @cfc4n in https://github.com/gojue/ecapture/pull/380
+
+**Full Changelog**: https://github.com/gojue/ecapture/compare/v0.6.0...v0.6.1
+
+<hr>
+
+# v0.6.0 (2023-07-02)
+## 🚀 Breaking Changes
+Associating process information with network packets. usage: `cp utils/ecapture.lua ~/.wireshark/plugins` .
+![](images/ecapture-pid.png)
+![](images/ecapture-wireshark-lua-plugin.png)
+
+## What's Changed
+* code refactoring by @cfc4n in https://github.com/gojue/ecapture/pull/371
+* Tls response unexpected eof by @cfc4n in https://github.com/gojue/ecapture/pull/372
+* modify func isCOntainerCgroup to isContainerCgroup, and where referenced by @chusyclub in https://github.com/gojue/ecapture/pull/374
+* feat: Associate corresponding process information with each network packet. by @cfc4n in https://github.com/gojue/ecapture/pull/376
+
+**Full Changelog**: https://github.com/gojue/ecapture/compare/v0.5.3...v0.6.0
+
+<hr>
+
+# v0.5.3 (2023-05-21)
+## What's Changed
+* user: fixes slice out of range by @cfc4n in https://github.com/gojue/ecapture/pull/366
+
+**Full Changelog**: https://github.com/gojue/ecapture/compare/v0.5.2...v0.5.3
+
+<hr>
+
+# v0.5.2 (2023-05-01)
+## What's Changed
+* add CircleLinux rpm and mannul build support by @bella485 in https://github.com/gojue/ecapture/pull/345
+* gomod: update github.com/mdlayher/netlink to v1.7.1 by @cfc4n in https://github.com/gojue/ecapture/pull/348
+* use makefile to build rpm by @xjas in https://github.com/gojue/ecapture/pull/344
+* fix : DumpResponse error: unexpected EOF  by @cfc4n in https://github.com/gojue/ecapture/pull/349
+* bugfix: Error unknown flag gobin (fixes #354 ) by @cfc4n in https://github.com/gojue/ecapture/pull/355
+* GitHub actions deprecating by @cfc4n in https://github.com/gojue/ecapture/pull/356
+* kern : support gotls request and response by @cfc4n in https://github.com/gojue/ecapture/pull/357
+* user: fixes the network card ID cannot be found when writing to a pcapng file. (#347) by @cfc4n in https://github.com/gojue/ecapture/pull/358
+
+**Full Changelog**: https://github.com/gojue/ecapture/compare/v0.5.1...v0.5.2
+
+<hr>
+
+# v0.5.1 (2023-04-08)
+## What's Changed
+* user: add ifname's default value of gotls module. by @cfc4n in https://github.com/gojue/ecapture/pull/332
+* kern: fix wrong uid by @lazybetrayer in https://github.com/gojue/ecapture/pull/334
+* support rpm build by @xjas in https://github.com/gojue/ecapture/pull/341
+* pkg : add proc(go version) unit testing by @cfc4n in https://github.com/gojue/ecapture/pull/342
+
+**Full Changelog**: https://github.com/gojue/ecapture/compare/v0.5.0...v0.5.1
+
+<hr>
+
 # v0.5.0 (2023-03-10)
 
 ## What's Changed
